@@ -9,7 +9,7 @@ export default async function Login(){
     return (
         <>
             <div>{JSON.stringify(user) ? `${JSON.stringify(user)}` : null}</div>
-            {user ? <LogInButton /> : <LogOutButton />}
+            {user ? <LogOutButton /> : <LogInButton />}
         </>
     )
 }
