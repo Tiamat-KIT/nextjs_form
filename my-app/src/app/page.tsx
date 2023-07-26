@@ -8,6 +8,7 @@ export default function Home() {
       <h1>テスト</h1> 
       <Link href="./login" className={buttonVariants({variant:"outline"})}>SignIn</Link>
       <Button variant="outline">Press!</Button>
+
     </main>
   )
 }
